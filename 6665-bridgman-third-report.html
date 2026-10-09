@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marketing Performance Report — 6665 Bridgman Street | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#008C82;--teal-deep:#00625B;--gold:#C9A227;--charcoal:#1A1A1A;
+--body:#1F1F1F;--muted:#5A5651;--strong:#0F0F0F;--line:#E2DED7;--paper:#FBFAF7;--panel:#F3F1EC;
+--red:#B5543C;--rose:#D4886F;--green:#4E8C6A;--slate:#6B7C8C}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--body);font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:16.5px;line-height:1.68}
+.wrap{max-width:900px;margin:0 auto;padding:0 26px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--charcoal)}
+h1{font-size:2.5rem;line-height:1.1;margin:0 0 .4rem}
+h2{font-size:1.8rem;line-height:1.2;margin:0 0 .8rem}
+h3{font-size:1.18rem;margin:1.4rem 0 .45rem}
+p{margin:0 0 1rem;max-width:74ch}
+b,strong{font-weight:600;color:var(--strong)}
+ul{margin:0 0 1rem;padding-left:1.2rem;max-width:74ch}
+li{margin-bottom:.5rem}
+.mast{background:var(--charcoal);color:#F5F3EE;padding:28px 0 30px}
+.brandline{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}
+.mark{width:33px;height:33px;border-radius:50%;background:var(--teal);color:#fff;font-family:'Cormorant Garamond',serif;font-size:21px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:translateY(5px)}
+.brandname{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:#F5F3EE}
+.mast .tag{color:#A9A49C;font-size:.83rem;margin-left:auto;text-align:right;line-height:1.5}
+.kicker{color:var(--gold);font-size:.9rem;margin:22px 0 4px}
+.mast h1{color:#FBFAF7;margin-top:4px}
+.mast .sub{color:#B8B2A8;margin:0;font-size:1rem}
+.rec{background:var(--teal);color:#fff;padding:32px 0 30px}
+.rec h2{color:#fff;font-size:1.5rem;margin-bottom:.3rem}
+.rec .lead{color:#D6EDEA;max-width:70ch;margin-bottom:24px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.28);border-radius:10px;overflow:hidden}
+.step{background:var(--teal);padding:20px}
+.step .k{font-size:.82rem;color:#CDE8E5;margin-bottom:6px}
+.step .v{font-family:'Cormorant Garamond',serif;font-size:2.4rem;line-height:1;color:#fff}
+.step .n{font-size:.87rem;color:#CDE8E5;margin-top:7px;line-height:1.45}
+.step:first-child{background:var(--teal-deep)}
+section{padding:38px 0;border-top:1px solid var(--line)}
+.snum{color:var(--teal-deep);font-size:.9rem;margin:0 0 .2rem}
+h2 em{font-style:italic;font-weight:400;color:var(--teal-deep)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;margin:0 0 20px}
+.fact{padding:14px 17px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fact .k{font-size:.79rem;color:var(--muted);margin-bottom:2px}
+.fact .v{font-weight:600;color:var(--strong)}
+.confirm{color:#8A6D0B;background:#FBF3D8;padding:1px 7px;border-radius:4px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 20px}
+.st{background:#fff;padding:18px}
+.st .v{font-family:'Cormorant Garamond',serif;font-size:2rem;line-height:1.05;color:var(--teal-deep)}
+.st .v.warn{color:var(--red)}
+.st .k{font-size:.85rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.pull{border-left:4px solid var(--gold);background:#fff;padding:19px 24px;border-radius:0 8px 8px 0;margin:0 0 22px}
+.pull p:last-child{margin-bottom:0}
+.anchor{background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:10px;padding:22px 26px;margin:0 0 22px}
+.anchor h3{margin-top:0;font-size:1.3rem}
+.anchor .grid{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin:14px 0 0}
+.anchor .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:.94rem}
+.anchor .row b{color:var(--teal-deep)}
+.box{background:#fff;border:1px solid var(--line);border-radius:10px;padding:21px 24px;margin:0 0 20px}
+.box h3{margin-top:0}
+.box p:last-child{margin-bottom:0}
+details{border:1px solid var(--line);border-radius:9px;background:#fff;margin:0 0 14px}
+summary{cursor:pointer;padding:15px 19px;font-weight:600;color:var(--teal-deep);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.45rem;color:var(--gold);line-height:1;flex:0 0 auto}
+details[open] summary::after{content:"\2212"}
+summary:hover{background:var(--panel)}
+.dbody{padding:2px 19px 17px}
+.dbody > *:last-child{margin-bottom:0}
+.tscroll{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:.88rem;background:#fff;min-width:680px}
+th{background:var(--panel);color:var(--strong);font-weight:600;text-align:left;padding:10px 11px;border-bottom:2px solid var(--line);white-space:nowrap}
+td{padding:10px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.hi td{background:#E6F3F1;font-weight:600}
+tr.gold td{background:#FBF3D8}
+td.num,th.num{text-align:right;white-space:nowrap}
+caption{caption-side:bottom;text-align:left;color:var(--muted);font-size:.86rem;padding-top:9px}
+.pill{display:inline-block;font-size:.77rem;padding:2px 8px;border-radius:20px;font-weight:500}
+.fast{background:#DFF0EC;color:#00625B}.slow{background:#F6E3DE;color:#8A3B26}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px 26px;margin:0 0 22px}
+.chart h3{margin:0 0 4px}
+.chart .cap{font-size:.9rem;color:var(--muted);margin:0 0 18px}
+.bar{display:grid;grid-template-columns:190px 1fr;gap:13px;align-items:center;margin-bottom:11px;font-size:.9rem}
+.track{background:var(--panel);border-radius:4px;height:26px;overflow:hidden}
+.fill{height:26px;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;color:#fff;font-weight:600;font-size:.85rem;white-space:nowrap}
+.fill.t{background:var(--teal)}.fill.g{background:var(--gold)}.fill.r{background:var(--red)}.fill.s{background:var(--slate)}.fill.gr{background:var(--green)}
+.src{font-size:.85rem;color:var(--muted);margin:14px 0 0;padding-top:13px;border-top:1px solid var(--line)}
+footer{background:var(--charcoal);color:#B8B2A8;padding:30px 0;font-size:.89rem}
+footer .sig{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--gold);margin-bottom:8px}
+footer a{color:#8FD2CB}
+@media(max-width:720px){body{font-size:16px}h1{font-size:1.95rem}h2{font-size:1.45rem}.steps{grid-template-columns:1fr}.anchor .grid{grid-template-columns:1fr}.mast .tag{margin-left:0;width:100%;text-align:left}.bar{grid-template-columns:120px 1fr;font-size:.82rem}}
+@media print{body{background:#fff}section{page-break-inside:avoid}summary::after{content:""}}
+</style>
+<style>
+.cf{color:#8A6D0B;background:#FBF3D8;padding:1px 8px;border-radius:4px;font-weight:600}
+.flag{background:#FBEDE9;border-left:4px solid var(--red);border-radius:0 9px 9px 0;padding:20px 24px;margin:0 0 20px}
+.flag h3{margin-top:0;color:#8A3B26}
+.flag p:last-child{margin-bottom:0}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brandline">
+      <span class="mark">V</span>
+      <span class="brandname">Verandah Properties, LLC</span>
+      <span class="tag">Report 3 of an ongoing series<br>Issued October 9, 2026</span>
+    </div>
+    <p class="kicker">Marketing Performance Report · Week Three</p>
+    <h1>6665 Bridgman Street</h1>
+    <p class="sub">Orlando, FL 32827 · Laureate Park, Lake Nona · 5 bed / 4.5 bath · 3,567 sq ft · Detached garage apartment</p>
+  </div>
+</header>
+
+<div class="rec">
+  <div class="wrap">
+    <h2>Where we stand</h2>
+    <p class="lead" style="margin-bottom:0">Four more showings this week and <b style="color:#fff">an application</b> — which we declined, because the applicant did not meet the screening standard. The interest is consistent and the price is working. <b style="color:#fff">We are not recommending any change this week.</b></p>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section style="border-top:none">
+  <p class="snum">Section One</p>
+  <h2>This week's activity</h2>
+  <div class="stats">
+    <div class="st"><div class="v">24</div><div class="k">Days on market</div></div>
+    <div class="st"><div class="v">4</div><div class="k">Showings since last report</div></div>
+    <div class="st"><div class="v">8</div><div class="k">Showings, campaign to date</div></div>
+    <div class="st"><div class="v">1</div><div class="k">Application received and reviewed</div></div>
+  </div>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Measure</th><th class="num">Report 1 — Sept 24</th><th class="num">Report 2 — Oct 1</th><th class="num">Report 3 — Oct 9</th></tr></thead>
+    <tbody>
+      <tr><td>Days on market</td><td class="num">9</td><td class="num">16</td><td class="num">24</td></tr>
+      <tr><td>Showings this period</td><td class="num">1</td><td class="num">3</td><td class="num">4</td></tr>
+      <tr><td>Showings, campaign to date</td><td class="num">1</td><td class="num">4</td><td class="num">8</td></tr>
+      <tr class="hi"><td>Applications received</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
+      <tr><td>Applications approved</td><td class="num">—</td><td class="num">—</td><td class="num">0</td></tr>
+    </tbody>
+    <caption>Showing activity confirmed through Rently.</caption>
+  </table>
+  </div>
+
+  <p><b>Eight showings in twenty-four days is steady, consistent traffic</b> for a home at this size and price point. The pace has been building rather than fading — one showing in the first week, three in the second, four in the third. That is the opposite of what a mispriced listing does.</p>
+</section>
+
+<section>
+  <p class="snum">Section Two</p>
+  <h2>The application, and why we <em>declined it</em></h2>
+  <p>We received an application this week. We screened it, and <b>the applicant did not meet our Resident Selection Criteria.</b> We declined it.</p>
+  <p>We want to address that directly, because we know how it lands.</p>
+
+  <div class="pull">
+    <p>It is disappointing. We felt it too — we want this home leased just as much as you do, and we do not get paid until it is. Turning down an application is not something we do lightly or without regret.</p>
+  </div>
+
+  <p><b>But this is precisely what you hire us for.</b></p>
+  <p>Anyone can accept an application. The value of a professional manager is in the one we decline — the household that looked fine on the surface and did not hold up under verification.</p>
+
+  <div class="box">
+    <h3>Why we will not take the risk</h3>
+    <p>A vacancy costs you rent. <b>A bad placement can cost you far more than that, and for far longer.</b></p>
+    <p>Missed rent while the process runs its course. Legal fees. A vacancy at the end of it anyway. A turnover heavier than a normal one. And damage that routinely exceeds the deposit — on a home of this quality, with a detached apartment and the finishes yours has, that figure is not small.</p>
+    <p>It is entirely possible for a single bad placement to erase a year of income and leave the property in worse condition than it started. We have seen it. We are not willing to expose you to it in order to fill a vacancy three weeks sooner.</p>
+  </div>
+
+  <p>We apply the same written criteria to every applicant, on every property, every time. That consistency is what protects you — and it is also what protects us both under fair housing law. We do not make exceptions because a home has been on the market for a few weeks.</p>
+
+  <div class="quote">
+    <p>We would far rather tell you we declined an application than tell you six months from now that we placed someone we should not have.</p>
+  </div>
+</section>
+
+<section>
+  <p class="snum">Section Three</p>
+  <h2>What the application <em>actually tells us</em></h2>
+  <p>There is a genuinely positive signal buried in this week, and it is worth naming.</p>
+  <p><b>The price is working.</b> Two weeks ago we had showings and no applications. This week someone toured the home, liked it enough to pay an application fee, and committed to the process. That is a meaningful step forward in the campaign, even though this particular household did not qualify.</p>
+  <p>A home priced above its market does not generate applications. It generates polite silence. We are past that stage.</p>
+
+  <div class="box">
+    <h3>What this means for pricing</h3>
+    <p><b>We are recommending no change this week.</b></p>
+    <p>Eight showings, building week over week, and an application in hand tell us the number is landing where it should. Reducing now would give away rent to solve a problem we do not have — the issue was never the price, it was this particular applicant's qualifications.</p>
+  </div>
+</section>
+
+<section>
+  <p class="snum">Section Four</p>
+  <h2>What we are doing next</h2>
+  <ul>
+    <li><b>Working every prospect from the last four showings directly.</b> Same-day follow-up where possible, and a second follow-up before any lead is treated as closed.</li>
+    <li><b>Re-contacting earlier prospects</b>, including the household weighing their family member's plans for the garage apartment and the one who toured before the washer and dryer were added.</li>
+    <li><b>Continuing to show the home as normal.</b> Nothing pauses because of a declined application.</li>
+    <li><b>Monitoring competing Laureate Park listings</b> daily for price movement or new inventory.</li>
+    <li><b>Re-verifying the listing on every portal</b>, logged out, as part of the weekly cycle.</li>
+  </ul>
+
+  <div class="pull">
+    <p>The goal was never simply to get an application. It is to generate enough qualified interest that we can <b>choose</b> a resident rather than accept one. Eight showings in three weeks is what that looks like while it is working.</p>
+  </div>
+
+  <p>Your next report arrives <b>Friday morning</b>. In the meantime, Becky will keep you updated directly as showings happen and as feedback comes in.</p>
+</section>
+
+<section>
+  <p class="snum">Section Five</p>
+  <h2>Summary</h2>
+  <ul>
+    <li><b>Four showings this week, eight in the campaign to date</b> — and the pace is building, not fading.</li>
+    <li><b>One application received and declined.</b> The applicant did not meet our Resident Selection Criteria.</li>
+    <li>We know that is disappointing. It is also exactly what you hire us for — <b>one poor placement can cost far more than the vacancy ever will</b>, and we are not willing to take that risk on your behalf.</li>
+    <li><b>The application itself is a positive signal.</b> An overpriced home does not produce applications.</li>
+    <li><b>Our recommendation: no change to the rent this week.</b> The interest is consistent and the price is doing its job.</li>
+  </ul>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">Curating Lake Nona's Finest Rental Portfolio</div>
+    <p><b>Verandah Properties, LLC</b><br>Pamela Syvertson, Owner &amp; Broker · License CQ1048619 · <a href="tel:4078550331">407-855-0331</a></p>
+    <p style="font-size:.84rem;color:#8C877F;max-width:74ch">Activity figures reflect Verandah source tracking and Rently showing records for September 15 through October 9, 2026. Applicant information is confidential. All applicants are evaluated against Verandah's published Resident Selection Criteria, applied consistently to every applicant on every property.</p>
+  </div>
+</footer>
+
+</body>
+</html>
